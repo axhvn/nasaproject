@@ -97,6 +97,7 @@ header .top {
   align-items: center;
   justify-content: space-between;
   padding-block: 20px;
+  margin-bottom: 100px;
 }
 
 header .top nav ul {
@@ -122,4 +123,14 @@ header .top .right-group p {
   padding: 0;
   margin: 0;
   line-height: 1.2;
+}
+
+header .main .address {
+  margin-bottom: 40px;
+}
+
+header .main h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
