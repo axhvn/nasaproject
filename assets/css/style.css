@@ -88,3 +88,49 @@ div > a, li > a {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
+
+/* === about us page styles === */
+
+header .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 20px;
+  margin-bottom: 100px;
+}
+
+header .top nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+header .top .right-group {
+  display: flex;
+  gap: 10px;
+}
+
+header .top .right-group i {
+  color: rgb(255, 94, 0);
+  font-size: 25px;
+}
+
+header .top .right-group p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+}
+
+header .main .address {
+  margin-bottom: 40px;
+}
+
+header .main h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
