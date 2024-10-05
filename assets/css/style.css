@@ -43,6 +43,7 @@ div > a, li > a {
   border-radius: 4px;
   align-items: center;
   font-weight: 700;
+  text-transform: uppercase !important;
 }
 .button2 {
   background-color: #fffbfb00;
@@ -53,4 +54,13 @@ div > a, li > a {
   border-radius: 4px;
   align-items: center;
   font-weight: 700;
+}
+
+.our-clients-container {
+  display: flex;
+  justify-content: center;
+}
+.our-clients-container .right {
+  display: flex;
+  justify-self: center;
 }
